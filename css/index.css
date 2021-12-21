@@ -1,0 +1,90 @@
+html, body{
+	margin: 0 auto;
+	padding: 0xp 0px;
+}
+
+#wr—idcard{
+	height: 6.25rem;
+}
+
+#wr-idcard-head{
+	float: left;
+	height: 100%;
+	width: 5rem;
+	background-color: red;
+	margin-left: 1.25rem;
+}
+
+#wr-idcard-message{
+	float: left;
+	margin-left: 0.625rem;
+	background-color: #1296DB;
+	min-width: 12.5rem;
+	height: 100%;
+}
+
+#wr-idcard-message > div{
+	margin-left: 1.25rem;
+	margin-top: 0.625rem;
+}
+
+#wr-idcard-message-weight,
+#wr-idcard-message-height{
+	font-size: 0.875rem;
+}
+
+.wr-box{
+	margin: 0.625rem;
+	border: 1px solid gray;
+	padding: 0.625rem;
+	padding-top: 0.9375rem;
+	padding-bottom: 0.9375rem;
+	border-radius: 15px;
+	min-height: 2.5rem;
+	box-shadow: #808080 0.0625rem 0.0625rem;
+}
+
+.wr-daily-title{
+	text-align: center;
+	font-size: 1.875rem;
+	color: chartreuse;
+}
+
+#wr-button{
+	position: fixed;
+	width: 3.75rem;
+	height: 3.75rem;
+	border-radius: 40px;
+	right: 1.875rem;
+	bottom: 7.5rem;
+	background-image: url(../img/add.png);
+	background-size: 3.125rem;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: 0.03125rem solid #1296db;
+	box-shadow: #808080 0.03125rem 0.03125rem;
+}
+
+#wr-menu{
+	position: fixed;
+	width: 100%;
+	height: 3.125rem;
+	bottom: 1.25rem;
+	text-align: center;
+}
+
+#wr-menu-box{
+	height: 100%;
+	width: 80%;
+	margin: 0 auto;
+	border: #1296DB solid 1px;
+	border-radius: 0.9375rem;
+}
+
+#wr-menu-box > div{
+	float: left;
+	border: #1296DB solid 0.03125rem;
+	width: 33%;
+	height: 100%;
+	line-height: 3.125rem;
+}
